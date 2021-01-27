@@ -1,0 +1,6 @@
+<project outputDir="E:\Documents\GitHub\AmsiScanBufferBypass\TestBypass\bin\Release\Confused" baseDir="E:\Documents\GitHub\AmsiScanBufferBypass\TestBypass\bin\Release" xmlns="http://confuser.codeplex.com">
+  <packer id="compressor" />
+  <module path="TestBypass.exe">
+    <rule pattern="true" preset="normal" inherit="false" />
+  </module>
+</project>

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestBypass", "TestBypass\TestBypass.csproj", "{99836C6E-12DA-406C-AAC8-216B5ED96AD2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{830C2803-20E1-4E04-B363-1D932730B891} = {830C2803-20E1-4E04-B363-1D932730B891}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crypt", "Crypt\Crypt.csproj", "{830C2803-20E1-4E04-B363-1D932730B891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99836C6E-12DA-406C-AAC8-216B5ED96AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99836C6E-12DA-406C-AAC8-216B5ED96AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99836C6E-12DA-406C-AAC8-216B5ED96AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99836C6E-12DA-406C-AAC8-216B5ED96AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{830C2803-20E1-4E04-B363-1D932730B891}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{830C2803-20E1-4E04-B363-1D932730B891}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{830C2803-20E1-4E04-B363-1D932730B891}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{830C2803-20E1-4E04-B363-1D932730B891}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7B232247-F0F5-4C7C-A6D6-6D27F9EE4FF1}
+	EndGlobalSection
+EndGlobal
